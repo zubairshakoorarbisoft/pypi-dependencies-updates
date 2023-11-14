@@ -1,0 +1,776 @@
+{"django-elasticsearch-dsl": {"django": {"4.0": null, "4.1": "8.0", "4.2": "8.0"}, "python": {"3.11": "8.0", "3.10": "7.2.2", "3.9": "7.2.2"}, "is_django": true}}
+{"cfn-lint": {"django": {}, "python": {"3.11": "v0.70.1", "3.10": "v0.65.0", "3.9": "v0.41.0"}, "is_django": false}}
+{"edx-search": {"django": {"4.0": "3.6.0", "4.1": null, "4.2": "3.6.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"psutil": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"redis": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"backports.entry-points-selectable": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-cjson": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"gspread": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"rq": {"django": {}, "python": {"3.11": "v1.13.0", "3.10": "v1.13.0", "3.9": "v1.8.1"}, "is_django": false}}
+{"google-cloud-translate": {"django": {}, "python": {"3.11": "v3.10.0", "3.10": "v3.6.0", "3.9": "v3.6.0"}, "is_django": false}}
+{"django-environ": {"django": {"4.0": "v0.9.0", "4.1": "v0.10.0", "4.2": "v0.11.0"}, "python": {"3.11": "v0.10.0", "3.10": "v0.6.0", "3.9": "v0.6.0"}, "is_django": true}}
+{"django-cache-memoize": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"autocommand": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-object-actions": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-django-sites-extensions": {"django": {"4.0": null, "4.1": null, "4.2": "v4.0.2"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"cached-property": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"h11": {"django": {}, "python": {"3.11": "master", "3.10": "v0.14.0", "3.9": "v0.12.0"}, "is_django": false}}
+{"pytest-rerunfailures": {"django": {}, "python": {"3.11": "11.0", "3.10": "10.2", "3.9": "10.0"}, "is_django": false}}
+{"requests-aws4auth": {"django": {}, "python": {"3.11": null, "3.10": "v1.2.0", "3.9": "v1.1.0"}, "is_django": false}}
+{"click-log": {"django": {}, "python": {"3.11": null, "3.10": "0.4.0", "3.9": "0.4.0"}, "is_django": false}}
+{"sphinxcontrib-devhelp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"zope-interface": {"django": {}, "python": {"3.11": "5.5.1", "3.10": "5.5.0", "3.9": "5.5.0"}, "is_django": false}}
+{"event-tracking": {"django": {"4.0": "v2.2.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"gitpython": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sailthru-client": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-dynamic-filenames": {"django": {}, "python": {"3.11": "1.3.2", "3.10": "1.3.0", "3.9": "1.2.0"}, "is_django": false}}
+{"ordereddict": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"elasticsearch-dsl": {"django": {}, "python": {"3.11": "v8.9.0", "3.10": "v8.9.0", "3.9": "7.3.0"}, "is_django": false}}
+{"asttokens": {"django": {}, "python": {"3.11": "v2.3.0", "3.10": "v2.3.0", "3.9": "v2.0.5"}, "is_django": false}}
+{"taxonomy-connector": {"django": {"4.0": "1.15.1", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"ansible-core": {"django": {}, "python": {"3.11": "devel", "3.10": "devel", "3.9": null}, "is_django": false}}
+{"pluggy": {"django": {}, "python": {"3.11": "1.1.0", "3.10": "1.1.0", "3.9": "1.1.0"}, "is_django": false}}
+{"pysrt": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-dateutil": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "2.8.2"}, "is_django": false}}
+{"waitress": {"django": {}, "python": {"3.11": null, "3.10": "v2.1.0", "3.9": "v2.0.0"}, "is_django": false}}
+{"jsonfield2": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"cherrypy": {"django": {}, "python": {"3.11": "main", "3.10": "main", "3.9": "main"}, "is_django": false}}
+{"sphinx-rtd-theme": {"django": {}, "python": {"3.11": "1.2.0rc2", "3.10": "1.1.0", "3.9": "1.0.0"}, "is_django": false}}
+{"xblock-drag-and-drop-v2": {"django": {"4.0": null, "4.1": null, "4.2": "v3.2.1"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"edx-token-utils": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"google-cloud-secret-manager": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyjwt": {"django": {}, "python": {"3.11": "2.7.0", "3.10": "2.4.0", "3.9": "2.0.0"}, "is_django": false}}
+{"gunicorn": {"django": {}, "python": {"3.11": "21.0.0", "3.10": "21.0.0", "3.9": "20.1.0"}, "is_django": false}}
+{"dill": {"django": {}, "python": {"3.11": "dill-0.3.7", "3.10": "dill-0.3.5", "3.9": "dill-0.3.4"}, "is_django": false}}
+{"pyrsistent": {"django": {}, "python": {"3.11": "v0.19.3", "3.10": "v0.18.1", "3.9": "v0.18.0"}, "is_django": false}}
+{"fasteners": {"django": {}, "python": {"3.11": null, "3.10": "0.17", "3.9": "0.17"}, "is_django": false}}
+{"markupsafe": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"boltons": {"django": {}, "python": {"3.11": "23.0.0", "3.10": "23.0.0", "3.9": "21.0.0"}, "is_django": false}}
+{"openedx-ledger": {"django": {"4.0": null, "4.1": null, "4.2": "1.2.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pybase64": {"django": {}, "python": {"3.11": "v1.3.0", "3.10": "v1.2.0", "3.9": "v1.0.2"}, "is_django": false}}
+{"parsimonious": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsondiff": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"apache-libcloud": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-soapbox": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jaraco-classes": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pylatexenc": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"six": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"didkit": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"chardet": {"django": {}, "python": {"3.11": "5.1.0", "3.10": "5.0.0", "3.9": "4.0.0"}, "is_django": false}}
+{"sphinxcontrib-httpdomain": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "1.8.0"}, "is_django": false}}
+{"livereload": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "master"}, "is_django": false}}
+{"nh3": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"werkzeug": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openedx-blockstore": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"edx-ace": {"django": {"4.0": null, "4.1": null, "4.2": "v1.7.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-phonenumber-field": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-websupport": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-durationwidget": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-stubs-ext": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ua-parser": {"django": {}, "python": {"3.11": null, "3.10": "0.15.0", "3.9": "0.15.0"}, "is_django": false}}
+{"tblib": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"click-didyoumean": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"markdown": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-images": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "0.9.3"}, "is_django": false}}
+{"faker": {"django": {}, "python": {"3.11": "v17.1.0", "3.10": "v14.2.2", "3.9": "v5.0.1"}, "is_django": false}}
+{"cron-descriptor": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-splash": {"django": {"4.0": "1.2.0", "4.1": null, "4.2": "1.3.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-js-asset": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pydata-sphinx-theme": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"altgraph": {"django": {}, "python": {"3.11": "v0.17.3", "3.10": "v0.17.1", "3.9": "v0.17.1"}, "is_django": false}}
+{"django-filter": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"grimp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"semgrep": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-braces": {"django": {}, "python": {"3.11": null, "3.10": "v1.15.0", "3.9": "v1.15.0"}, "is_django": false}}
+{"pylint-django": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyflakes": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-jose": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "3.3.0"}, "is_django": false}}
+{"pytest-responses": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"filetype": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v1.0.9"}, "is_django": false}}
+{"freezegun": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "1.2.0"}, "is_django": false}}
+{"shapely": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsonfield": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"celery": {"django": {}, "python": {"3.11": "v5.3.1", "3.10": "v5.2.0b2", "3.9": "v5.1.0"}, "is_django": false}}
+{"jsonpatch": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v1.27"}, "is_django": false}}
+{"django-lang-pref-middleware": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"rfc3339-validator": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pillow": {"django": {}, "python": {"3.11": "9.3.0", "3.10": "8.3.2", "3.9": "8.0.0"}, "is_django": false}}
+{"x509": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"nodeenv": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-repeat": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsx-lexer": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-ccx-keys": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsonlines": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"kappa": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-timeout": {"django": {}, "python": {"3.11": "2.2.0", "3.10": "2.2.0", "3.9": "2.2.0"}, "is_django": false}}
+{"cheroot": {"django": {}, "python": {"3.11": "v9.0.0", "3.10": "v9.0.0", "3.9": "v8.5.0"}, "is_django": false}}
+{"django-compressor": {"django": {}, "python": {"3.11": "4.3", "3.10": "3.0", "3.9": "3.0"}, "is_django": false}}
+{"snowflake-connector-python": {"django": {}, "python": {"3.11": "v3.0.0", "3.10": "v3.0.0", "3.9": "v3.0.0"}, "is_django": false}}
+{"junit-xml": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-asyncio": {"django": {}, "python": {"3.11": "v0.19.0", "3.10": "v0.16.0", "3.9": "v0.15.0"}, "is_django": false}}
+{"decorator": {"django": {}, "python": {"3.11": "master", "3.10": "5.1.1", "3.9": "4.4.2"}, "is_django": false}}
+{"mako": {"django": {}, "python": {"3.11": "rel_1_3_0", "3.10": "rel_1_1_6", "3.9": "rel_1_1_6"}, "is_django": false}}
+{"django-storages": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"nose-ignore-docstring": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cssselect2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-cov": {"django": {}, "python": {"3.11": "v4.1.0", "3.10": "v3.0.0", "3.9": "v3.0.0"}, "is_django": false}}
+{"django-timezone-field": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-toolbox": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"flake8": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"attrs": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"astroid": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-elasticsearch-dsl-drf": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "0.21"}, "is_django": false}}
+{"django-statici18n": {"django": {}, "python": {"3.11": "main", "3.10": "v2.3.1", "3.9": "v2.1.0"}, "is_django": false}}
+{"xss-utils": {"django": {"4.0": "v0.4.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"drf-jwt": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"py-partiql-parser": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"path-py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-celeryutils": {"django": {"4.0": "v1.2.0", "4.1": "v1.2.3", "4.2": "v1.2.3"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-haystack": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v3.1.0"}, "is_django": false}}
+{"django-simple-history": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"trio": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"diff-cover": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"unicodecsv": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"fixtures": {"django": {}, "python": {"3.11": "4.1.0", "3.10": "4.0.0", "3.9": "4.0.0"}, "is_django": false}}
+{"openedx-calc": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinx-panels": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"alabaster": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"linecache2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-countries": {"django": {}, "python": {"3.11": "v7.5", "3.10": "v7.5", "3.9": "v7.1"}, "is_django": false}}
+{"boto": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sqlparse": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-contrib-comments": {"django": {"4.0": "2.2.0", "4.1": "master", "4.2": "master"}, "python": {"3.11": null, "3.10": "master", "3.9": "2.1.0"}, "is_django": true}}
+{"chem": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"click": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinx-autobuild": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"secretstorage": {"django": {}, "python": {"3.11": null, "3.10": "3.3.2", "3.9": "3.2.0"}, "is_django": false}}
+{"xlsxwriter": {"django": {}, "python": {"3.11": "RELEASE_3.1.5", "3.10": "RELEASE_3.0.3", "3.9": "RELEASE_1.3.7"}, "is_django": false}}
+{"google-auth": {"django": {}, "python": {"3.11": "v2.16.1", "3.10": "v2.3.0", "3.9": "v1.24.0"}, "is_django": false}}
+{"urllib3": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"mock": {"django": {}, "python": {"3.11": "5.0.0", "3.10": "5.0.0", "3.9": "5.0.0"}, "is_django": false}}
+{"fsspec": {"django": {}, "python": {"3.11": "2023.3.0", "3.10": "2022.3.0", "3.9": "0.9.0"}, "is_django": false}}
+{"django-fernet-fields-v2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-yt": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-cloud-aiplatform": {"django": {}, "python": {"3.11": "v1.32.0", "3.10": "v1.17.1", "3.9": "v1.6.1"}, "is_django": false}}
+{"openedx-learning": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"aws-xray-sdk": {"django": {}, "python": {"3.11": "2.12.0", "3.10": "2.12.0", "3.9": "2.8.0"}, "is_django": false}}
+{"tqdm": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-codejail": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"l18n": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jaraco-text": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pylint-celery": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"virtualenv": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"click-repl": {"django": {}, "python": {"3.11": "0.3.0", "3.10": "0.3.0", "3.9": "0.3.0"}, "is_django": false}}
+{"analytics-python": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "2.1.0"}, "is_django": false}}
+{"edx-ecommerce-worker": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"glom": {"django": {}, "python": {"3.11": null, "3.10": "v23.1.0", "3.9": "v23.1.0"}, "is_django": false}}
+{"dask": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pprintpp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"volatile": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"starlette": {"repo_url": "https://github.com/sponsors/encode", "skipped": true, "reason": "no_access"}}
+{"yamllint": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"maxminddb": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-storage-swift": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"rsa": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"djangorestframework-xml": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"httpretty": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "1.0.4"}, "is_django": false}}
+{"schema": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v0.7.5"}, "is_django": false}}
+{"bump2version": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"olxcleaner": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"botocore": {"django": {}, "python": {"3.11": "develop", "3.10": "develop", "3.9": "develop"}, "is_django": false}}
+{"asn1crypto": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"fissix": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"dockerpty": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pylint-plugin-utils": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"coreschema": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"doc8": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"s3transfer": {"django": {}, "python": {"3.11": "develop", "3.10": "develop", "3.9": "develop"}, "is_django": false}}
+{"django-bootstrap3": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-cloud-resource-manager": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinx-book-theme": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"oscrypto": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"coverage": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"httpcore": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"mailsnake": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"draftjs-exporter": {"django": {}, "python": {"3.11": "v5.0.0", "3.10": "v4.1.2", "3.9": "v4.1.1"}, "is_django": false}}
+{"imagesize": {"django": {}, "python": {"3.11": null, "3.10": "1.4.0", "3.9": "1.3.0"}, "is_django": false}}
+{"cycler": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cybersource-rest-client-python": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"crispy-bootstrap3": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"validators": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"logger": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"requests-toolbelt": {"django": {}, "python": {"3.11": "1.0.0", "3.10": "1.0.0", "3.9": "1.0.0"}, "is_django": false}}
+{"django-model-utils": {"django": {"4.0": "4.3.0", "4.1": "4.3.0", "4.2": "master"}, "python": {"3.11": "master", "3.10": "4.2.0", "3.9": "4.1.0"}, "is_django": true}}
+{"lti-consumer-xblock": {"django": {"4.0": "v3.4.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"willow": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"backoff": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pydantic": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jaraco-collections": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"vulture": {"django": {}, "python": {"3.11": "v2.8", "3.10": "v2.4", "3.9": "v2.2"}, "is_django": false}}
+{"django-threadlocals": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"staff-graded-xblock": {"django": {"4.0": null, "4.1": null, "4.2": "2.1.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-crum": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "0.7.8"}, "is_django": false}}
+{"edx-drf-extensions": {"django": {"4.0": "v8.11.1", "4.1": "v8.11.1", "4.2": "v8.11.1"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"requests-oauthlib": {"django": {}, "python": {"3.11": null, "3.10": "master", "3.9": "v1.3.1"}, "is_django": false}}
+{"pylti1p3": {"django": {}, "python": {"3.11": "2.0.0", "3.10": "1.11.0", "3.9": "1.9.0"}, "is_django": false}}
+{"python-subunit": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"lz4": {"django": {}, "python": {"3.11": "v4.1.0", "3.10": "v4.0.0", "3.9": "v4.0.0"}, "is_django": false}}
+{"django-multiselectfield": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-config-models": {"django": {"4.0": null, "4.1": null, "4.2": "2.4.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"edx-sga": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-cors-headers": {"django": {}, "python": {"3.11": "3.13.0", "3.10": "3.10.0", "3.9": "3.4.0"}, "is_django": false}}
+{"openedx-django-pyfs": {"django": {"4.0": "3.2.1", "4.1": null, "4.2": "3.4.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"portend": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tox-battery": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"getsmarter-api-clients": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"httmock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-slugify": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"kombu": {"django": {}, "python": {"3.11": "v5.3.3", "3.10": "v5.2.1", "3.9": "v5.2.0"}, "is_django": false}}
+{"vine": {"django": {}, "python": {"3.11": "v5.1.0", "3.10": "v5.1.0", "3.9": "v5.1.0"}, "is_django": false}}
+{"mashumaro": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-modelcluster": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": "v6.1", "3.10": "v5.2", "3.9": "v5.2"}, "is_django": true}}
+{"xblock": {"django": {"4.0": "xblock-1.7.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"configobj": {"django": {}, "python": {"3.11": "v5.0.7", "3.10": "v5.0.7", "3.9": "v5.0.7"}, "is_django": false}}
+{"onelogin-aws-assume-role": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tenacity": {"django": {}, "python": {"3.11": "8.2.0", "3.10": "8.0.0", "3.9": "7.0.0"}, "is_django": false}}
+{"app-store-notifications-v2-validator": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-appconf": {"django": {"4.0": "v1.0.5", "4.1": "develop", "4.2": "develop"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"oauthlib": {"django": {}, "python": {"3.11": "master", "3.10": "v3.2.0", "3.9": "v3.2.0"}, "is_django": false}}
+{"types-python-dateutil": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"factory-boy": {"django": {}, "python": {"3.11": "3.3.0", "3.10": "3.3.0", "3.9": "3.2.0"}, "is_django": false}}
+{"edx-enterprise": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cairosvg": {"django": {}, "python": {"3.11": "2.6.0", "3.10": "2.6.0", "3.9": "2.5.0"}, "is_django": false}}
+{"html2text": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "master"}, "is_django": false}}
+{"chevron": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"contentful": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-user-tasks": {"django": {"4.0": null, "4.1": null, "4.2": "3.1.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-classy-tags": {"django": {"4.0": "3.0.0", "4.1": "4.0.0", "4.2": "4.1.0"}, "python": {"3.11": "4.1.0", "3.10": "3.0.0", "3.9": "3.0.0"}, "is_django": true}}
+{"pytest-pylint": {"django": {}, "python": {"3.11": "v0.19.0", "3.10": "v0.19.0", "3.9": "v0.19.0"}, "is_django": false}}
+{"cloudpickle": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"djangorestframework-csv": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"responses": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyminizip": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-cloud-storage": {"django": {}, "python": {"3.11": "v2.8.0", "3.10": "v1.43.0", "3.9": "v1.33.0"}, "is_django": false}}
+{"pyjwkest": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"zope-event": {"django": {}, "python": {"3.11": "4.6", "3.10": "4.5.1", "3.9": "4.5.0"}, "is_django": false}}
+{"pip-tools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"kubernetes": {"django": {}, "python": {"3.11": "master", "3.10": "v20.11.0a1", "3.9": "v18.20.0"}, "is_django": false}}
+{"distlib": {"django": {}, "python": {"3.11": "0.3.5", "3.10": "0.3.5", "3.9": "0.3.5"}, "is_django": false}}
+{"sphinx-mdinclude": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyinstaller-hooks-contrib": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tutor": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"smmap": {"django": {}, "python": {"3.11": "v5.0.1", "3.10": "v5.0.0", "3.9": "v4.0.0"}, "is_django": false}}
+{"django-pyfs": {"django": {"4.0": "3.2.1", "4.1": null, "4.2": "3.4.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pillow-heif": {"django": {}, "python": {"3.11": "v0.5.0", "3.10": "v0.1.9", "3.9": "v0.1.9"}, "is_django": false}}
+{"arrow": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"types-pyyaml": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-django": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"social-auth-app-django": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"bracex": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"simple-salesforce": {"django": {}, "python": {"3.11": "v1.12.3", "3.10": "v1.12.3", "3.9": "v1.12.3"}, "is_django": false}}
+{"datetime": {"django": {}, "python": {"3.11": "4.8", "3.10": "4.4", "3.9": "4.4"}, "is_django": false}}
+{"scipy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-treebeard": {"django": {"4.0": "4.6.0", "4.1": "4.6.0", "4.2": "master"}, "python": {"3.11": "4.6.0", "3.10": "4.6.0", "3.9": "4.6.0"}, "is_django": true}}
+{"graphql-core": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"needle": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"path": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cssutils": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"googleapis-common-protos": {"django": {}, "python": {"3.11": "v1.57.0", "3.10": "v1.57.0", "3.9": "v1.53.0"}, "is_django": false}}
+{"mypy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-webtest": {"django": {"4.0": null, "4.1": "1.9.11", "4.2": "1.9.11"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pip": {"django": {}, "python": {"3.11": "22.2.1", "3.10": "21.3", "3.9": "20.3"}, "is_django": false}}
+{"pyparsing": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"docker": {"django": {}, "python": {"3.11": "6.1.0", "3.10": "6.0.0", "3.9": "4.4.2"}, "is_django": false}}
+{"zstandard": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"hvac": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyopenssl": {"django": {}, "python": {"3.11": "23.0.0", "3.10": "22.0.0", "3.9": "20.0.0"}, "is_django": false}}
+{"dj-database-url": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"acid-xblock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"whitenoise": {"django": {}, "python": {"3.11": "6.2.0"}, "is_django": false}}
+{"sphinxcontrib-youtube": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-when": {"django": {"4.0": "2.4.0", "4.1": null, "4.2": "2.4.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"deprecated": {"django": {}, "python": {"3.11": "v1.2.14", "3.10": "v1.2.12", "3.9": "v1.2.11"}, "is_django": false}}
+{"djangoql": {"django": {}, "python": {}, "is_django": false}}
+{"aiodns": {"django": {}, "python": {"3.11": "v3.1.0", "3.10": "v3.1.0", "3.9": "aiodns-3.0.0"}, "is_django": false}}
+{"django-nested-admin": {"django": {}, "python": {"3.11": null, "3.10": "v3.4.0", "3.9": "v3.4.0"}, "is_django": false}}
+{"pynacl": {"django": {}, "python": {"3.11": "main", "3.10": "1.5.0", "3.9": "1.5.0"}, "is_django": false}}
+{"watchdog": {"django": {}, "python": {"3.11": "v2.2.0", "3.10": "v1.0.0", "3.9": "v1.0.0"}, "is_django": false}}
+{"awscli": {"django": {}, "python": {"3.11": "develop", "3.10": "develop", "3.9": "develop"}, "is_django": false}}
+{"restructuredtext-lint": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pycountry": {"django": {}, "python": {"3.11": null, "3.10": "22.3.5", "3.9": "22.3.5"}, "is_django": false}}
+{"commonmark": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ndg-httpsclient": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"anyascii": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-html": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-i18n-tools": {"django": {"4.0": "v0.9.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"agate": {"django": {}, "python": {"3.11": "1.7.0", "3.10": "1.7.0", "3.9": "1.6.3"}, "is_django": false}}
+{"social-auth-core": {"django": {}, "python": {"3.11": "4.5.0", "3.10": "4.5.0", "3.9": "4.0.0"}, "is_django": false}}
+{"pycryptodomex": {"django": {}, "python": {"3.11": "v3.17.0", "3.10": "v3.12.0", "3.9": "v3.10.0"}, "is_django": false}}
+{"twine": {"django": {}, "python": {"3.11": null, "3.10": "3.6.0", "3.9": "3.3.0"}, "is_django": false}}
+{"bleach": {"django": {}, "python": {"3.11": "v6.0.0", "3.10": "v5.0.0", "3.9": "v4.1.0"}, "is_django": false}}
+{"click-plugins": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pysocks": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"github3.py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-auth-httplib2": {"django": {}, "python": {"3.11": "v0.1.1", "3.10": "v0.1.1", "3.9": "v0.1.1"}, "is_django": false}}
+{"interchange": {"django": {}, "python": {"3.11": "master", "3.10": "master"}, "is_django": false}}
+{"billiard": {"django": {}, "python": {"3.11": "v4.1.0", "3.10": "v4.0.0", "3.9": "v3.6.4.0"}, "is_django": false}}
+{"ciso8601": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"voluptuous": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"joblib": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"binaryornot": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"snowballstemmer": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tinycss2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pgpy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v0.5.4"}, "is_django": false}}
+{"jaraco-context": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-autocomplete-light": {"django": {"4.0": "3.9.7", "4.1": "3.9.7", "4.2": "3.9.7"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"ordered-set": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openapi-schema-validator": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsonschema-spec": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"hologram": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"texttable": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"exceptiongroup": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"rq-dashboard": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-sekizai": {"django": {"4.0": "4.0.0", "4.1": "4.0.0", "4.2": "4.1.0"}, "python": {"3.11": "4.1.0", "3.10": "3.0.0", "3.9": "3.0.0"}, "is_django": true}}
+{"django-stubs": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-ratelimit": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-enterprise-data": {"django": {"4.0": "4.0.0", "4.1": null, "4.2": "4.9.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"cookiecutter": {"django": {}, "python": {"3.11": "2.2.0", "3.10": "2.1.0", "3.9": "2.0.0a0"}, "is_django": false}}
+{"pygeoip": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ipaddress": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sympy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"build": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-choices": {"django": {}, "python": {"3.11": "2.0.0", "3.10": "2.0.0", "3.9": "1.7.2"}, "is_django": false}}
+{"blinker": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"atlassian-python-api": {"django": {}, "python": {"3.11": "3.36.0", "3.10": "3.18.1", "3.9": "1.17.7"}, "is_django": false}}
+{"sphinxcontrib-serializinghtml": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pylint": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-monkey-business": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-name-affirmation": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pyhcl": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"import-linter": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"anyio": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pansi": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "2020.7.3"}, "is_django": false}}
+{"toml": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "0.10.2"}, "is_django": false}}
+{"ansible": {"django": {}, "python": {"3.11": "devel", "3.10": "devel", "3.9": null}, "is_django": false}}
+{"tableauserverclient": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"xblock-utils": {"django": {"4.0": null, "4.1": null, "4.2": "v3.4.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"colorama": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"nltk": {"django": {}, "python": {"3.11": "3.8.1", "3.10": "3.7", "3.9": "3.6"}, "is_django": false}}
+{"backports.functools-lru-cache": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-toggles": {"django": {"4.0": "v4.3.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"psycopg2": {"django": {}, "python": {"3.11": "2.9.6", "3.10": "2.9.6", "3.9": "2.9.6"}, "is_django": false}}
+{"argh": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"zappa": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tox-travis": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"prefect": {"django": {}, "python": {"3.11": "2.6.5", "3.10": "1.2.2", "3.9": "1.0.0"}, "is_django": false}}
+{"django-fernet-fields": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"codecov": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v2.1.11"}, "is_django": false}}
+{"setuptools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"face": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"requests": {"django": {}, "python": {"3.11": "v2.28.0", "3.10": "v2.27.0", "3.9": "v2.25.0"}, "is_django": false}}
+{"youtube-dl": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"webencodings": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"mysqlclient": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jinja2-time": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cssselect": {"django": {}, "python": {"3.11": "v1.2.0", "3.10": "v1.2.0", "3.9": "v1.2.0"}, "is_django": false}}
+{"asyncio-extras": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"idna": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"placebo": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyasn1-modules": {"django": {}, "python": {"3.11": "v0.3.0", "3.10": "v0.3.0", "3.9": "v0.3.0"}, "is_django": false}}
+{"pytzdata": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"purl": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-qthelp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"itsdangerous": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"Sphinx": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"frozendict": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"marshmallow": {"django": {}, "python": {"3.11": "3.20.0", "3.10": "3.14.0", "3.9": "3.9.0"}, "is_django": false}}
+{"jaraco-functools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"resolvelib": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"shellescape": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"futures": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"dbt-core": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"path.py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jinja2-pluralize": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-mermaid": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-organizations": {"django": {"4.0": "6.12.0", "4.1": null, "4.2": "6.12.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-ipware": {"django": {}, "python": {"3.11": "v5.0.0", "3.10": "v4.0.2", "3.9": "3.0.4"}, "is_django": false}}
+{"iso-639": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"xblock-google-drive": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"boto3": {"django": {}, "python": {"3.11": "1.24.14", "3.10": "1.18.49", "3.9": "1.18.48"}, "is_django": false}}
+{"pygithub": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"more-itertools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"rpds-py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-mysql": {"django": {}, "python": {"3.11": "4.7.0", "3.10": "4.2.0", "3.9": "3.6.0"}, "is_django": false}}
+{"dbt-snowflake": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ptyprocess": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-milestones": {"django": {"4.0": null, "4.1": null, "4.2": "0.5.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"tomlkit": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cairocffi": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"azure-storage-nspkg": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"clickhouse-connect": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cfn-flip": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"xblock-sdk": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"user-util": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-api-python-client": {"django": {}, "python": {}, "is_django": false}}
+{"edx-event-bus-kafka": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"gitdb": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"importlib-metadata": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"super-csv": {"django": {"4.0": "v3.1.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"telepath": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"jinja2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"matplotlib": {"django": {}, "python": {"3.11": "v3.6.1", "3.10": "v3.5.0rc1", "3.9": "v3.5.0"}, "is_django": false}}
+{"django-taggit": {"django": {}, "python": {"3.11": "3.1.0", "3.10": "2.0.0", "3.9": "1.4.0"}, "is_django": false}}
+{"keyring": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-analytics-data-api-client": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"defusedxml": {"django": {}, "python": {"3.11": "v0.8.0rc1", "3.10": "v0.8.0rc1", "3.9": "v0.7.0"}, "is_django": false}}
+{"pyquery": {"django": {}, "python": {"3.11": null, "3.10": "2.0.0", "3.9": "2.0.0"}, "is_django": false}}
+{"lazy-object-proxy": {"django": {}, "python": {"3.11": "v1.8.0", "3.10": "v1.7.0", "3.9": "v1.5.2"}, "is_django": false}}
+{"sphinx-copybutton": {"django": {}, "python": {"3.11": null, "3.10": "v0.5.1", "3.9": "v0.3.2"}, "is_django": false}}
+{"inflection": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"graphviz": {"django": {}, "python": {"3.11": "master", "3.10": "0.17", "3.9": "0.15"}, "is_django": false}}
+{"xblock-poll": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"edx-rest-api-client": {"django": {"4.0": null, "4.1": null, "4.2": "v5.6.1"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pandas": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"bridgekeeper": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"gevent": {"django": {}, "python": {"3.11": "22.08.0", "3.10": "21.8.0", "3.9": "20.6.0"}, "is_django": false}}
+{"contourpy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"azure-storage-common": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-htmlhelp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-django": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tempora": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"vertica-python": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"picobox": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tabulate": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-mimeparse": {"django": {}, "python": {"3.11": null, "3.10": "master", "3.9": "master"}, "is_django": false}}
+{"backports-csv": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ijson": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pymemcache": {"django": {}, "python": {"3.11": null, "3.10": "v4.0.0", "3.9": "v3.4.1"}, "is_django": false}}
+{"srt": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-lint": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"polib": {"django": {}, "python": {"3.11": "1.2.0", "3.10": "1.2.0", "3.9": "1.2.0"}, "is_django": false}}
+{"pytest-forked": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"flask": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"filelock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"stripe": {"django": {}, "python": {"3.11": "master", "3.10": "v2.65.0", "3.9": "v2.55.1"}, "is_django": false}}
+{"elasticsearch": {"django": {}, "python": {"3.11": "main", "3.10": "main", "3.9": "main"}, "is_django": false}}
+{"qrcode": {"django": {}, "python": {"3.11": null, "3.10": "v7.1", "3.9": "v7.0"}, "is_django": false}}
+{"sniffio": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"yagocd": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"types-pytz": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"scandir": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"extras": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-flakes": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-xdist": {"django": {}, "python": {"3.11": "v3.1.0", "3.10": "v2.4.0", "3.9": "v2.2.1"}, "is_django": false}}
+{"django-webpack-loader": {"django": {"4.0": "1.6.0", "4.1": "1.8.0", "4.2": "2.0.1"}, "python": {"3.11": "master", "3.10": "1.8.0", "3.9": "1.0.0"}, "is_django": true}}
+{"geoip2": {"django": {}, "python": {"3.11": null, "3.10": "v4.5.0", "3.9": "v4.3.0"}, "is_django": false}}
+{"anki": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"sphinxcontrib-contentui": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sarif-om": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pathable": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"webvtt-py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "0.4.6"}, "is_django": false}}
+{"pytest-json-report": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"semantic-version": {"django": {}, "python": {"3.11": "master", "3.10": "2.9.0", "3.9": "2.9.0"}, "is_django": false}}
+{"jenkinsapi": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"iniconfig": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"algoliasearch": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"bcrypt": {"django": {}, "python": {"3.11": "main", "3.10": "3.2.1", "3.9": "3.2.1"}, "is_django": false}}
+{"moreorless": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"wcmatch": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ddt": {"django": {}, "python": {"3.11": null, "3.10": "1.5.0", "3.9": "1.5.0"}, "is_django": false}}
+{"pywatchman": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"done-xblock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"djangorestframework-datatables": {"django": {"4.0": "0.7.0", "4.1": "master", "4.2": null}, "python": {"3.11": "master", "3.10": "master", "3.9": "0.6.0"}, "is_django": true}}
+{"rstcheck-core": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"codejail-includes": {"repo_url": "https://github.com/edx/codejail-includes", "skipped": true, "reason": "no_access"}}
+{"pytest-runner": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openedx-events": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"graphitesend": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsonschema": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"accessible-pygments": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-celery-beat": {"django": {}, "python": {"3.11": "v2.5.0", "3.10": "v2.3.0", "3.9": "v2.3.0"}, "is_django": false}}
+{"bowler": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"coreapi": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-braze-client": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"multidict": {"django": {}, "python": {"3.11": "v6.0.3", "3.10": "v5.2.0", "3.9": "v5.1.0"}, "is_django": false}}
+{"annotated-types": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"frozenlist": {"django": {}, "python": {"3.11": "v1.3.1", "3.10": "v1.3.0", "3.9": "v1.1.0"}, "is_django": false}}
+{"django-oscar": {"django": {"4.0": "3.2.1", "4.1": "3.2.1", "4.2": "3.2.1"}, "python": {"3.11": "3.2.1", "3.10": "3.2.1", "3.9": "3.1"}, "is_django": true}}
+{"swagger2rst": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyinstrument": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"networkx": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"xmlsec": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "1.3.10"}, "is_django": false}}
+{"greenlet": {"django": {}, "python": {"3.11": "2.0.1", "3.10": "1.1.0", "3.9": "0.4.16"}, "is_django": false}}
+{"zeep": {"django": {}, "python": {"3.11": "4.2.0", "3.10": "4.2.0", "3.9": "4.0.0"}, "is_django": false}}
+{"sshpubkeys": {"django": {}, "python": {"3.11": null, "3.10": "master", "3.9": "master"}, "is_django": false}}
+{"django-nine": {"django": {}, "python": {"3.11": null, "3.10": "0.2.6", "3.9": "0.2.6"}, "is_django": false}}
+{"isodate": {"django": {}, "python": {"3.11": null, "3.10": "0.6.1", "3.9": "0.6.1"}, "is_django": false}}
+{"django-debug-toolbar": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tox": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-cloud-bigquery": {"django": {}, "python": {"3.11": "v3.4.2", "3.10": "v2.30.0", "3.9": "v2.7.0"}, "is_django": false}}
+{"edx-api-doc-tools": {"django": {"4.0": null, "4.1": null, "4.2": "v1.7.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"atomicwrites": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest": {"django": {}, "python": {"3.11": "7.2.1", "3.10": "7.0.0", "3.9": "5.4.2"}, "is_django": false}}
+{"enmerkar": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"logging-tree": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "1.9"}, "is_django": false}}
+{"naked": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"argcomplete": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"packaging": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"certifi": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cloudflare": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"text-unidecode": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"logbook": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jedi": {"django": {}, "python": {"3.11": "v0.19.0", "3.10": "v0.18.1", "3.9": "v0.17.1"}, "is_django": false}}
+{"cryptography": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pydantic-core": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sh": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"rstcheck": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"aiohttp": {"django": {}, "python": {"3.11": null, "3.10": "v3.8.0", "3.9": "v3.7.0"}, "is_django": false}}
+{"pytest-base-url": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"onelogin": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"mdurl": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyasn1": {"django": {}, "python": {"3.11": "v0.5.0", "3.10": "v0.5.0", "3.9": "v0.5.0"}, "is_django": false}}
+{"pygments": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"rich": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"github3-py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"asgiref": {"django": {}, "python": {"3.11": "3.6.0", "3.10": "3.5.0", "3.9": "3.3.1"}, "is_django": false}}
+{"google-crc32c": {"django": {}, "python": {"3.11": "v1.5.0", "3.10": "v1.3.0", "3.9": "v1.1.0"}, "is_django": false}}
+{"simplejson": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"configparser": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"tomli": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"enmerkar-underscore": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"recommender-xblock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python3-saml": {"django": {}, "python": {"3.11": "v1.16.0", "3.10": "v1.14.0", "3.9": "v1.10.1"}, "is_django": false}}
+{"tornado": {"django": {}, "python": {"3.11": "v6.3.0", "3.10": "v6.2.0", "3.9": "v6.1.0b2"}, "is_django": false}}
+{"algoliasearch-django": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pyproject-api": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyseeyou": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"entrypoints": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-parler": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"wrapt": {"django": {}, "python": {"3.11": "1.14.1", "3.10": "1.13.0", "3.9": "1.13.0"}, "is_django": false}}
+{"djangorestframework-stubs": {"django": {}, "python": {"3.11": "1.9.1", "3.10": "1.8.0", "3.9": "1.3.0"}, "is_django": false}}
+{"distro": {"django": {}, "python": {"3.11": null, "3.10": "v1.7.0", "3.9": "v1.6.0"}, "is_django": false}}
+{"opsgenie-sdk": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"marshmallow-oneofschema": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "3.0.0"}, "is_django": false}}
+{"drf-spectacular": {"django": {"4.0": "0.22.0", "4.1": "0.24.0", "4.2": "0.26.2"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"scriv": {"repo_url": "https://github.com/sponsors/nedbat", "skipped": true, "reason": "no_access"}}
+{"macholib": {"django": {}, "python": {"3.11": "v1.16.2", "3.10": "v1.16", "3.9": "v1.15"}, "is_django": false}}
+{"web-fragments": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"edx-completion": {"django": {"4.0": "v4.2.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pyyaml": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-resumable-media": {"django": {}, "python": {"3.11": null, "3.10": "v2.1.0", "3.9": "v1.2.0"}, "is_django": false}}
+{"paramiko": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pycryptodome": {"django": {}, "python": {"3.11": "v3.17.0", "3.10": "v3.12.0", "3.9": "v3.10.0"}, "is_django": false}}
+{"django-stdimage": {"django": {}, "python": {"3.11": null, "3.10": "5.3.2", "3.9": "5.3.0"}, "is_django": false}}
+{"sorl-thumbnail": {"django": {"4.0": "12.9.0", "4.1": "12.9.0", "4.2": "12.10.0"}, "python": {"3.11": "12.10.0", "3.10": "12.9.0", "3.9": "12.9.0"}, "is_django": true}}
+{"sphinx-design": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-catchlog": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"yarl": {"django": {}, "python": {"3.11": "v1.8.1", "3.10": "v1.7.0a3", "3.9": "v1.6.1"}, "is_django": false}}
+{"django-mptt": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-auth-oauthlib": {"django": {}, "python": {"3.11": "v0.8.0", "3.10": "v0.5.0", "3.9": "v0.4.2"}, "is_django": false}}
+{"mechanize": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openapi-spec-validator": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openedx-django-require": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"charset-normalizer": {"django": {}, "python": {"3.11": "2.0.11", "3.10": "1.4.0", "3.9": "1.4.0"}, "is_django": false}}
+{"markdown-it-py": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"aiosignal": {"django": {}, "python": {"3.11": "v1.3.0", "3.10": "v1.2.0", "3.9": "v1.1.0"}, "is_django": false}}
+{"azure-nspkg": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"toolz": {"django": {}, "python": {"3.11": "master", "3.10": "0.11.2", "3.9": "0.11.2"}, "is_django": false}}
+{"phonenumbers": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openedx-mongodbproxy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"caniusepython3": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v7.3.0"}, "is_django": false}}
+{"drf-flex-fields": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-cloud-core": {"django": {}, "python": {"3.11": null, "3.10": "v2.1.0", "3.9": "v1.5.0"}, "is_django": false}}
+{"platformdirs": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"babel": {"django": {}, "python": {"3.11": "v2.11.0", "3.10": "v2.10.0", "3.9": "v2.10.0"}, "is_django": false}}
+{"aws-sam-translator": {"django": {}, "python": {"3.11": "v1.63.0", "3.10": "v1.43.0", "3.9": "v1.43.0"}, "is_django": false}}
+{"pytest-mock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-sortedm2m": {"django": {"4.0": "master", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": "master", "3.9": "3.1.0"}, "is_django": true}}
+{"distributed": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pathspec": {"django": {}, "python": {"3.11": "v0.10.1", "3.10": "v0.10.1", "3.9": "v0.10.1"}, "is_django": false}}
+{"sphinx-intl": {"django": {}, "python": {"3.11": "2.1.0", "3.10": "2.1.0", "3.9": "2.1.0"}, "is_django": false}}
+{"edx-auth-backends": {"django": {"4.0": "v4.2.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"mpmath": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "1.2.0"}, "is_django": false}}
+{"testfixtures": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"types-requests": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"httpx": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-variables": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"paver": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pathlib2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "2.3.6"}, "is_django": false}}
+{"jsonschema-specifications": {"repo_url": "https://github.com/sponsors/Julian", "skipped": true, "reason": "no_access"}}
+{"django-oauth-toolkit": {"django": {}, "python": {"3.11": "2.3.0", "3.10": "1.6.0", "3.9": "1.4.0"}, "is_django": false}}
+{"sqlalchemy": {"django": {}, "python": {"3.11": "rel_2_0_0b2", "3.10": "rel_1_4_26", "3.9": "rel_1_3_14"}, "is_django": false}}
+{"django-multi-email-field": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"django-extensions": {"django": {"4.0": "3.2.0", "4.1": "3.2.1", "4.2": "3.2.3"}, "python": {"3.11": "3.2.3", "3.10": "3.1.4", "3.9": "3.1.1"}, "is_django": true}}
+{"openedx-atlas": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pymysql": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"mistune": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"wcwidth": {"django": {}, "python": {"3.11": "0.2.7", "3.10": "0.2.7", "3.9": "0.2.7"}, "is_django": false}}
+{"help-tokens": {"django": {"4.0": "v2.3.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"testtools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"async-timeout": {"django": {}, "python": {"3.11": "v4.0.3", "3.10": "v4.0.1", "3.9": "v4.0.0a3"}, "is_django": false}}
+{"mypy-extensions": {"django": {}, "python": {"3.11": "1.0.0", "3.10": "1.0.0", "3.9": "1.0.0"}, "is_django": false}}
+{"readme-renderer": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"drf-nested-routers": {"django": {"4.0": null, "4.1": "master", "4.2": "master"}, "python": {"3.11": "master", "3.10": "master", "3.9": "v0.93.0.dev0"}, "is_django": true}}
+{"types-cachetools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"user-agents": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"singledispatch": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"backports-zoneinfo": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-bulk-grades": {"django": {"4.0": "1.0.2", "4.1": "1.0.2", "4.2": "1.0.2"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"easydict": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"bumpversion": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"async-generator": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-randomly": {"django": {}, "python": {"3.11": "3.12.0", "3.10": "3.8.0", "3.9": "3.4.0"}, "is_django": false}}
+{"openedx-filters": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"newrelic": {"django": {}, "python": {"3.11": "v8.3.0", "3.10": "v7.2.1.168", "3.9": "v5.20.1"}, "is_django": false}}
+{"regex": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"cachetools": {"django": {}, "python": {"3.11": "v5.2.1", "3.10": "v5.0.0", "3.9": "v4.2.0"}, "is_django": false}}
+{"django-permissionedforms": {"django": {}, "python": {"3.11": null}, "is_django": false}}
+{"importlib-resources": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"mccabe": {"django": {}, "python": {"3.11": null, "3.10": "0.7.0", "3.9": "0.7.0"}, "is_django": false}}
+{"django-widget-tweaks": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"laboratory": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"wsgi-request-logger": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"monotonic": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"flask-sslify": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"urwid-readline": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinx": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"wagtail": {"django": {}, "python": {"3.11": "main", "3.10": "v2.15", "3.9": "v2.12"}, "is_django": false}}
+{"edx-event-bus-redis": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"sphinxcontrib-openapi": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"html5lib": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "master"}, "is_django": false}}
+{"wsproto": {"django": {}, "python": {"3.11": null, "3.10": "1.1.0", "3.9": "1.0.0"}, "is_django": false}}
+{"pytest-logging": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"backports-abc": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-proctoring": {"django": {"4.0": "4.10.0", "4.1": null, "4.2": "4.16.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pylint-pytest": {"django": {}, "python": {"3.11": "v1.1.3", "3.10": "v1.1.3", "3.9": "pylint-pytest-1.0.0"}, "is_django": false}}
+{"tzdata": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"black": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"confluent-kafka": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"msgpack": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jwcrypto": {"django": {}, "python": {"3.11": null, "3.10": "v1.1.0", "3.9": "v0.9.0"}, "is_django": false}}
+{"docker-compose": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"proto-plus": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"httplib2": {"django": {}, "python": {"3.11": "v0.21.0", "3.10": "v0.21.0", "3.9": "v0.20.0"}, "is_django": false}}
+{"fs": {"django": {}, "python": {"3.11": null, "3.10": "v2.4.15", "3.9": "v2.4.12"}, "is_django": false}}
+{"outcome": {"django": {}, "python": {"3.11": null, "3.10": "v1.2.0", "3.9": "v1.2.0"}, "is_django": false}}
+{"openai": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"openedx-django-wiki": {"django": {"4.0": null, "4.1": null, "4.2": "v2.0.3"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"kiwisolver": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-clearcache": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jsonpointer": {"django": {}, "python": {"3.11": "v2.4", "3.10": "v2.4", "3.9": "v2.1"}, "is_django": false}}
+{"edx-opaque-keys": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pudb": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pynliner": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"traceback2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"flaky": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sentry-sdk": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"djangorestframework": {"django": {"4.0": "3.13.0", "4.1": "3.14.0", "4.2": "master"}, "python": {"3.11": "master", "3.10": "3.13.0", "3.9": "3.12.0"}, "is_django": true}}
+{"django-solo": {"django": {"4.0": "2.0.0", "4.1": "2.1.0", "4.2": "2.1.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pep517": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"azure-common": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"zc-lockfile": {"django": {}, "python": {"3.11": "3.0", "3.10": "3.0", "3.9": "3.0"}, "is_django": false}}
+{"piexif": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"troposphere": {"django": {}, "python": {"3.11": "4.2.0", "3.10": "3.2.0", "3.9": "3.0.0"}, "is_django": false}}
+{"django-ses": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"xmltodict": {"django": {}, "python": {"3.11": null, "3.10": "v0.13.0", "3.9": "v0.13.0"}, "is_django": false}}
+{"backports-functools-lru-cache": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"optimizely-sdk": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"peewee": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-box": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"statistics": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"soupsieve": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"orjson": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"typing-extensions": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"luigi": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-lsp-jsonrpc": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"drf-yasg": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"referencing": {"repo_url": "https://github.com/sponsors/Julian", "skipped": true, "reason": "no_access"}}
+{"inflect": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytimeparse": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-pycodestyle": {"django": {}, "python": {"3.11": "v2.3.1", "3.10": "v2.2.1", "3.9": "v2.2.1"}, "is_django": false}}
+{"django-extra-views": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"websocket-client": {"django": {}, "python": {"3.11": "v1.4.2", "3.10": "v1.2.2", "3.9": "v0.58.0"}, "is_django": false}}
+{"urwid": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jschema-to-python": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"parsedatetime": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "master"}, "is_django": false}}
+{"pytest-metadata": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-gnupg": {"django": {}, "python": {"3.11": "0.4.9", "3.10": "0.4.9", "3.9": "0.4.7"}, "is_django": false}}
+{"edx-enterprise-subsidy-client": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"zipp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"lazy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"python-stdnum": {"django": {}, "python": {"3.11": "1.19", "3.10": "1.18", "3.9": "1.15"}, "is_django": false}}
+{"cffi": {"django": {}, "python": {"3.11": "v1.16.0", "3.10": "v1.15.1", "3.9": "v1.15.1"}, "is_django": false}}
+{"uvicorn": {"repo_url": "https://github.com/sponsors/encode", "skipped": true, "reason": "no_access"}}
+{"types-setuptools": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"prompt-toolkit": {"django": {}, "python": {"3.11": "3.0.40", "3.10": "3.0.21", "3.9": "3.0.11"}, "is_django": false}}
+{"requests-mock": {"django": {}, "python": {"3.11": null, "3.10": "1.10.0", "3.9": "1.9.0"}, "is_django": false}}
+{"pydocstyle": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"fastavro": {"django": {}, "python": {"3.11": "1.7.0", "3.10": "1.4.7", "3.9": "1.1.0"}, "is_django": false}}
+{"types-urllib3": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-dry-rest-permissions": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"python-dotenv": {"django": {}, "python": {"3.11": "v0.20.0", "3.10": "v0.19.1", "3.9": "v0.15.0"}, "is_django": false}}
+{"pyproject-hooks": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"typer": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"typing": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-rest-swagger": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"paypalrestsdk": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pendulum": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"moto": {"django": {}, "python": {"3.11": "4.0.9", "3.10": "3.0.0", "3.9": "2.2.5"}, "is_django": false}}
+{"jsonpickle": {"django": {}, "python": {"3.11": "v3.0.2", "3.10": "v2.1.0", "3.9": "v2.1.0"}, "is_django": false}}
+{"yarn-api-client": {"django": {}, "python": {"3.11": null, "3.10": "v1.0.3", "3.9": "v1.0.3"}, "is_django": false}}
+{"inapppy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-api-core": {"django": {}, "python": {"3.11": "v2.11.0", "3.10": "v2.1.0", "3.9": "v1.24.0"}, "is_django": false}}
+{"trio-websocket": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"dbt-extractor": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"icalendar": {"django": {}, "python": {"3.11": "v5.0.0", "3.10": "v4.1.1", "3.9": "v4.1.1"}, "is_django": false}}
+{"grpcio": {"django": {}, "python": {"3.11": "master", "3.10": "v1.41.0", "3.9": "v1.33.0-pre2"}, "is_django": false}}
+{"zappa-manage": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pytest-selenium": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"grpc-google-iam-v1": {"django": {}, "python": {"3.11": "v0.12.7"}, "is_django": false}}
+{"django-log-request-id": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"fastapi": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"asym-crypto-yaml": {"repo_url": "No Project Links Tab", "skipped": true, "reason": "no_access"}}
+{"jmespath": {"django": {}, "python": {"3.11": "develop", "3.10": "develop", "3.9": "develop"}, "is_django": false}}
+{"pytest-aiohttp": {"django": {}, "python": {"3.11": null, "3.10": "v1.0.0", "3.9": "v1.0.0"}, "is_django": false}}
+{"parso": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": "v0.8.0"}, "is_django": false}}
+{"parse": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-tables2": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"jira": {"django": {}, "python": {"3.11": "3.5.0", "3.10": "3.3.0", "3.9": "3.0.1"}, "is_django": false}}
+{"pycparser": {"django": {}, "python": {"3.11": "master", "3.10": "release_v2.21", "3.9": "release_v2.21"}, "is_django": false}}
+{"python-memcached": {"django": {}, "python": {"3.11": "master", "3.10": "master", "3.9": "master"}, "is_django": false}}
+{"django-dynamic-fixture": {"django": {"4.0": null, "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-admin-sortable2": {"django": {"4.0": "1.0.1", "4.1": "2.1", "4.2": "2.1.6"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pep257": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyresttest": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-sphinx-theme": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-libsass": {"django": {"4.0": null, "4.1": "main", "4.2": "main"}, "python": {"3.11": "main", "3.10": "main", "3.9": "v0.9"}, "is_django": true}}
+{"numpy": {"django": {}, "python": {"3.11": "v1.24.0rc1", "3.10": "v1.22.0rc1", "3.9": "v1.21.0rc1"}, "is_django": false}}
+{"slackclient": {"django": {}, "python": {"3.11": "v3.19.2", "3.10": "v3.13.0", "3.9": "v3.1.0"}, "is_django": false}}
+{"edx-django-utils": {"django": {"4.0": null, "4.1": null, "4.2": "v5.7.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"pytest-split": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pkgutil-resolve-name": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"crowdsourcehinter-xblock": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-jquery": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"argparse": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxcontrib-applehelp": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"code-annotations": {"django": {"4.0": null, "4.1": null, "4.2": "v1.5.0"}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"shellingham": {"django": {}, "python": {"3.11": "1.5.2", "3.10": "1.5.0", "3.9": "1.5.0"}, "is_django": false}}
+{"cachecontrol": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"fs-s3fs": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"google-compute-engine": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"transifex-python": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-crispy-forms": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"hypothesis-pytest": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"sphinxext-rediraffe": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"ujson": {"django": {}, "python": {"3.11": "5.5.0", "3.10": "4.2.0", "3.9": "4.0.0"}, "is_django": false}}
+{"pytest-cookies": {"django": {}, "python": {"3.11": "0.7.0", "3.10": "0.7.0", "3.9": "0.6.0"}, "is_django": false}}
+{"lxml": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"edx-rbac": {"django": {"4.0": "1.6.0", "4.1": null, "4.2": null}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": true}}
+{"django-localflavor": {"django": {"4.0": "4.0", "4.1": "4.0", "4.2": "4.0"}, "python": {"3.11": "4.0", "3.10": "4.0", "3.9": "3.1"}, "is_django": true}}
+{"isort": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"click-option-group": {"django": {}, "python": {"3.11": "v0.5.6", "3.10": "v0.5.4", "3.9": "v0.5.4"}, "is_django": false}}
+{"durationpy": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"django-celery-results": {"django": {}, "python": {"3.11": "v2.5.0", "3.10": "v2.3.0", "3.9": "v2.3.0"}, "is_django": false}}
+{"django-pipeline": {"django": {"4.0": "2.0.8", "4.1": "2.1.0", "4.2": null}, "python": {"3.11": "2.1.0", "3.10": "2.0.8", "3.9": "2.0.6"}, "is_django": true}}
+{"crypto": {"django": {}, "python": {"3.11": null, "3.10": null, "3.9": null}, "is_django": false}}
+{"pyinstaller": {"django": {}, "python": {"3.11": "v5.5", "3.10": "v4.6", "3.9": "v4.1"}, "is_django": false}}
