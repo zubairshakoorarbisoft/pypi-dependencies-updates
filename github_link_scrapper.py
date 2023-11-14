@@ -1,8 +1,41 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from read_dependency_packages import get_dependencies
+from fetch_dependencies import get_dependencies
+from github_links import github_links as all_github_links
 
+
+def get_substring_before_fifth_slash(url):
+    # Split the URL by slashes
+    components = url.split('/')
+
+    # Join the first five components back together
+    substring = '/'.join(components[:5])
+
+    return substring
+
+def filter_urls(urls):
+    version_controlling_domains = [
+        'github.com',
+        'gitlab.com',
+        'opendev.org',
+        'bitbucket.org',
+        'logilab.fr'
+    ]
+    filtered_urls = []
+
+    for url in urls:
+        # Count the number of forward slashes in the URL
+        num_slashes = url.count('/')
+        
+        # Check if the URL contains a maximum of 5 forward slashes and belongs to an allowed domain
+        if num_slashes <= 5 and any(domain in url for domain in version_controlling_domains):
+            if num_slashes is 5:
+                filtered_urls.append(get_substring_before_fifth_slash(url))
+            else:
+                filtered_urls.append(url)
+
+    return filtered_urls
 
 def write_to_file(file_path, data):
     with open(file_path, 'w') as output_file:
@@ -17,6 +50,7 @@ webpage_failed = []
 no_project_links = []
 csv_path = 'dashboard_main.csv'
 column_name = 'dependencies.pypi_all.list'
+# dep_not_have_github_links = [dependency for dependency in all_github_links if dependency['github_url'] == 'No Github Link']
 for dependency_name in get_dependencies(
         csv_path,
         column_name
@@ -43,11 +77,8 @@ for dependency_name in get_dependencies(
             # Find all <a> tags within the <ul> tag
             link_elements = parent_div.find('ul', {'class': 'vertical-tabs__list'}).find_all('a')
 
-            # Define a regex pattern for GitHub and GitLab repository links
-            github_pattern = re.compile(r'https://(www\.)?(github\.com|gitlab\.com)/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/?$')
-
             # Extract and print links that match the GitHub pattern
-            links = list(set([link['href'] for link in link_elements if 'github.com' in link['href'] and github_pattern.match(link['href'])]))
+            links = filter_urls(list(set([link['href'] for link in link_elements])))
 
             github_links[dependency_name] = links[0] if len(links) > 0 else "No Github Link"
             
