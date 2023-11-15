@@ -1,8 +1,7 @@
+import os
 import requests
 from bs4 import BeautifulSoup
-import re
 from fetch_dependencies import get_dependencies
-from github_links import github_links as all_github_links
 
 
 def get_substring_before_fifth_slash(url):
@@ -14,28 +13,30 @@ def get_substring_before_fifth_slash(url):
 
     return substring
 
+
 def filter_urls(urls):
     version_controlling_domains = [
         'github.com',
         'gitlab.com',
         'opendev.org',
         'bitbucket.org',
-        'logilab.fr'
+        'logilab.fr',
+        'heptapod.net'
     ]
     filtered_urls = []
 
     for url in urls:
-        # Count the number of forward slashes in the URL
         num_slashes = url.count('/')
-        
-        # Check if the URL contains a maximum of 5 forward slashes and belongs to an allowed domain
+
         if num_slashes <= 5 and any(domain in url for domain in version_controlling_domains):
-            if num_slashes is 5:
-                filtered_urls.append(get_substring_before_fifth_slash(url))
-            else:
-                filtered_urls.append(url)
+            filtered_urls.append(get_substring_before_fifth_slash(url) if num_slashes == 5 else url)
+        elif num_slashes > 5 and 'sourceforge.net' in url and url.endswith(("tree/", "tree")):
+            filtered_urls.append(url)
+        elif num_slashes > 5 and 'sdk/storage/azure-storage-blob' in url:  # only for azure-sdk-for-python
+            filtered_urls.append(url)
 
     return filtered_urls
+
 
 def write_to_file(file_path, data):
     with open(file_path, 'w') as output_file:
@@ -45,56 +46,80 @@ def write_to_file(file_path, data):
             output_file.write(f'    {{"dependency": "{package}", "github_url": "{github_url}"}},\n')
         output_file.write("]\n")
 
-github_links = {}
-webpage_failed = []
-no_project_links = []
-csv_path = 'dashboard_main.csv'
-column_name = 'dependencies.pypi_all.list'
-# dep_not_have_github_links = [dependency for dependency in all_github_links if dependency['github_url'] == 'No Github Link']
-for dependency_name in get_dependencies(
-        csv_path,
-        column_name
-    ):
-    # URL of the webpage
+
+def scrape_github_links(dependency_name):
     url = f"https://pypi.org/project/{dependency_name}/"
-
-    # Send a GET request to the URL
-    response = requests.get(url)
-
-    # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        # Parse the HTML content of the page
+    
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
-
-        # Find the section with the title "Project links"
+        
+        # Step 1: Check for Project Links Tab
         project_links_section = soup.find('h3', {'class': 'sidebar-section__title'}, text='Project links')
-
-        # Check if the section is found
+        
         if project_links_section:
-            # Navigate up to the parent <div> tag
             parent_div = project_links_section.find_parent('div', {'class': 'sidebar-section'})
-
-            # Find all <a> tags within the <ul> tag
             link_elements = parent_div.find('ul', {'class': 'vertical-tabs__list'}).find_all('a')
-
-            # Extract and print links that match the GitHub pattern
-            links = filter_urls(list(set([link['href'] for link in link_elements])))
-
-            github_links[dependency_name] = links[0] if len(links) > 0 else "No Github Link"
+            links = list(set(filter_urls([link['href'] for link in link_elements])))
+            return links[0] if links else "No Github Link"
+        
+        # Step 2: If Project Links Tab is not found, try to get releases history
+        history_url = f"https://pypi.org/project/{dependency_name}#history"
+        history_response = requests.get(history_url)
+        history_response.raise_for_status()
+        history_soup = BeautifulSoup(history_response.text, 'html.parser')
+        
+        # Step 3: Find up to 10 latest versions from release history
+        release_versions = [
+            p.text.split('\n')[0].strip() if '\n' in p.text else p.text.strip() for p in history_soup.find_all('p', {'class': 'release__version'})
+        ][:10]
+        
+        # Step 4: Iterate through versions to find Project Links
+        for version in release_versions:
+            url_with_version = f"https://pypi.org/project/{dependency_name}/{version}"
+            version_response = requests.get(url_with_version)
+            version_response.raise_for_status()
+            version_soup = BeautifulSoup(version_response.text, 'html.parser')
             
-            # Write the current GitHub link to the file
-            write_to_file("github_links.py", github_links)
-        else:
-            github_links[dependency_name] = "No Project Links Tab"
-            write_to_file("github_links.py", github_links)
-            no_project_links.append(url)
+            project_links_section = version_soup.find('h3', {'class': 'sidebar-section__title'}, text='Project links')
+            
+            if project_links_section:
+                parent_div = project_links_section.find_parent('div', {'class': 'sidebar-section'})
+                link_elements = parent_div.find('ul', {'class': 'vertical-tabs__list'}).find_all('a')
+                links = list(set(filter_urls([link['href'] for link in link_elements])))
+                return links[0] if links else "No Github Link"
+        
+        # If Project Links are not found in any version, return the appropriate message
+        return "No Github Link in Release History"
+    
+    except requests.RequestException as e:
+        print(f"Failed to retrieve the webpage for {url}. Exception: {e}")
+        return f"Failed to retrieve the webpage for {url}"
+
+
+def clear_file(file_path):
+    with open(file_path, 'w') as output_file:
+        output_file.truncate(0)
+
+def main():
+    csv_path = 'dashboard_main.csv'
+    column_name = 'dependencies.pypi_all.list'
+    github_links_file = 'github_links.py'
+    # Clear the contents of the github_links.py file
+    clear_file(github_links_file)
+
+    github_links = {}
+
+    for dependency_name in get_dependencies(csv_path, column_name):
+        github_link = scrape_github_links(dependency_name)
+        github_links[dependency_name] = github_link
+        write_to_file(github_links_file, github_links)
+
+        if github_link == "No Project Links Tab":
+            no_project_links.append(dependency_name)
             print("Project links section not found on the webpage.")
-    else:
-        webpage_failed.append(url)
-        print(f"Failed to retrieve the webpage for {url}. Status code:", response.status_code)
-        github_links[dependency_name] = f"Failed to retrieve the webpage for {url}"
-        write_to_file("github_links.py", github_links)
 
 
-print(f"webpage_failed: {len(webpage_failed)}")
-print(f"no_project_links: {len(no_project_links)}")
+if __name__ == "__main__":
+    main()
