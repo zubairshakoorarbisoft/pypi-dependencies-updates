@@ -2,9 +2,33 @@ import json
 import os
 import tempfile
 import subprocess
-import requests
+import toml
 
 from github_links import github_links
+
+
+def check_version_in_toml(version_type, repo_dir, version):
+    """
+    version_type: Django or Python
+    repo_dir: repository path
+    version: version to look for
+    """
+    # Read the pyproject.toml file
+    pyproject_toml_file_path = repo_dir + "/pyproject.toml"
+    try:
+        with open(pyproject_toml_file_path, 'r', encoding='utf-8') as toml_file:
+            data = toml.load(toml_file)
+    except FileNotFoundError:
+        return False  # File not found
+    except toml.TomlDecodeError:
+        return False  # Invalid TOML format
+
+    if version_type == "python":
+        classifiers = data.get('project', {}).get('classifiers', [])
+        return any(f"Programming Language :: Python :: {version}" in classifier for classifier in classifiers)
+    elif version_type == "django":
+        classifiers = data.get('project', {}).get('dependencies', [])
+        return any(f"Django=={version}" in classifier for classifier in classifiers)
 
 
 def clone_repository(repo_url):
@@ -74,20 +98,8 @@ def get_default_branch(repo_dir):
 def find_django_version_in_setup_py_classifier(repo_dir, tag, version):
     subprocess.run(['git', 'checkout', tag], cwd=repo_dir)
     setup_py_path = os.path.join(repo_dir, 'setup.py')
-    if os.path.exists(setup_py_path):
-        with open(setup_py_path, 'r') as setup_file:
-            setup_content = setup_file.read()
-            if f"'Framework :: Django :: {version}'" in setup_content:
-                return True
-    return False
-
-
-def find_python_version_in_setup_py_cfg(repo_dir, tag, version):
-    subprocess.run(['git', 'checkout', tag], cwd=repo_dir)
-    setup_py_path = os.path.join(repo_dir, 'setup.py')
     setup_cfg_path = os.path.join(repo_dir, 'setup.cfg')
-    is_version_in_setup_py = False
-    is_version_in_setup_cfg = False
+
     if not os.path.exists(setup_py_path):
         setup_py_path = None
     if not os.path.exists(setup_cfg_path):
@@ -95,12 +107,37 @@ def find_python_version_in_setup_py_cfg(repo_dir, tag, version):
 
     if setup_py_path:
         with open(setup_py_path, 'r') as setup_py_file:
-            is_version_in_setup_py = f"Programming Language :: Python :: {version}" in setup_py_file.read()
+            if f"Framework :: Django :: {version}" in setup_py_file.read():
+                return True
     if setup_cfg_path:
         with open(setup_cfg_path, 'r') as setup_cfg_file:
-            is_version_in_setup_cfg = f"Programming Language :: Python :: {version}" in setup_cfg_file.read()
-        if is_version_in_setup_py or is_version_in_setup_cfg:
-            return True
+            if f"Framework :: Django :: {version}" in setup_cfg_file.read():
+                return True
+    if check_version_in_toml("django", repo_dir, version):
+        return True
+    return False
+
+
+def find_python_version_in_config_files(repo_dir, tag, version):
+    subprocess.run(['git', 'checkout', tag], cwd=repo_dir)
+    setup_py_path = os.path.join(repo_dir, 'setup.py')
+    setup_cfg_path = os.path.join(repo_dir, 'setup.cfg')
+
+    if not os.path.exists(setup_py_path):
+        setup_py_path = None
+    if not os.path.exists(setup_cfg_path):
+        setup_cfg_path = None
+
+    if setup_py_path:
+        with open(setup_py_path, 'r') as setup_py_file:
+            if f"Programming Language :: Python :: {version}" in setup_py_file.read():
+                return True
+    if setup_cfg_path:
+        with open(setup_cfg_path, 'r') as setup_cfg_file:
+            if f"Programming Language :: Python :: {version}" in setup_cfg_file.read():
+                return True
+    if check_version_in_toml("python", repo_dir, version):
+        return True
     return False
 
 
@@ -209,10 +246,10 @@ if __name__ == '__main__':
 
         for version in python_versions:
             for tag in desc_tags_list:
-                if not find_python_version_in_setup_py_cfg(repo_dir, tag, version):
+                if not find_python_version_in_config_files(repo_dir, tag, version):
                     if tag == desc_tags_list[0]: # if the tag is latest the try with default latest/default branch as well
                         default_branch = get_default_branch(repo_dir)
-                        if find_python_version_in_setup_py_cfg(repo_dir, default_branch, version):
+                        if find_python_version_in_config_files(repo_dir, default_branch, version):
                             print(f"Python {version} support in {repo_url.split('/')[-1].split('.')[0]} was first added in default branch: {default_branch}")
                             results[dependency_name]['python'][version] = default_branch
                         else:
