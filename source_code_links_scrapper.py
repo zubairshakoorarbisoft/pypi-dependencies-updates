@@ -43,11 +43,30 @@ def write_to_file(file_path, data):
         output_file.write("# GitHub links for PyPI packages\n")
         output_file.write("github_links = [\n")
         for package, github_url in data.items():
-            output_file.write(f'    {{"dependency": "{package}", "github_url": "{github_url}"}},\n')
+            output_file.write(f'    {{"dependency": "{package}", "source": "{github_url}"}},\n')
         output_file.write("]\n")
 
 
-def scrape_github_links(dependency_name):
+def is_git_supported(url):
+    git_domains = [
+        "github.com",
+        "gitlab.com",
+        "bitbucket.org",
+        "gitea.io",
+        "gitkraken.com",
+        "sourcetreeapp.com",
+        "dev.azure.com",
+        "sourceforge.net"
+    ]
+
+    # Extract domain from the URL
+    domain = url.split('//')[-1].split('/')[0].lower()
+
+    # Check if the domain is in the list of git domains
+    return any(git_domain in domain for git_domain in git_domains)
+
+
+def scrape_source_code_url(dependency_name):
     url = f"https://pypi.org/project/{dependency_name}/"
     
     try:
@@ -102,7 +121,7 @@ def clear_file(file_path):
     with open(file_path, 'w') as output_file:
         output_file.truncate(0)
 
-def main():
+def scrape_links():
     csv_path = 'dashboard_main.csv'
     column_name = 'dependencies.pypi_all.list'
     github_links_file = 'github_links.py'
@@ -110,16 +129,22 @@ def main():
     clear_file(github_links_file)
 
     github_links = {}
+    to_return_links = []
 
     for dependency_name in get_dependencies(csv_path, column_name):
-        github_link = scrape_github_links(dependency_name)
-        github_links[dependency_name] = github_link
-        write_to_file(github_links_file, github_links)
-
-        if github_link == "No Project Links Tab":
-            no_project_links.append(dependency_name)
-            print("Project links section not found on the webpage.")
+        source_code_link = scrape_source_code_url(dependency_name)
+        github_links[dependency_name] = source_code_link
+        to_return_links.append(
+            {
+                "dependency": dependency_name,
+                "source": source_code_link,
+                "is_git_supported": is_git_supported(source_code_link)
+            }
+        )
+        # write_to_file(github_links_file, github_links)
+    
+    return to_return_links
 
 
 if __name__ == "__main__":
-    main()
+    scrape_links()

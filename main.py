@@ -3,8 +3,9 @@ import os
 import tempfile
 import subprocess
 import toml
+from fetch_dependencies import get_dependencies
 
-from github_links import github_links
+from source_code_links_scrapper import scrape_links
 
 
 def check_version_in_toml(version_type, repo_dir, version):
@@ -185,14 +186,12 @@ def read_updates_file(file_path):
 
 
 if __name__ == '__main__':
-    filtered_github_links = [dependency for dependency in github_links if dependency['github_url'] != 'No Github Link']
-    empty_filtered_github_links = [dependency for dependency in github_links if dependency['github_url'] == 'No Github Link']
-    # retry_deps = [dep for dep in filtered_github_links if dep["dependency"] not in [list(existing.keys())[0] for existing in read_updates_file("updates.json")]]
-
-    for dependency in filtered_github_links:
+    source_code_urls = scrape_links()
+    source_code_urls = [url for url in source_code_urls if url["is_git_supported"]]
+    for dependency in source_code_urls:
         results = {}
         # repo_url = 'https://github.com/encode/django-rest-framework.git'  # Repository URL
-        repo_url = dependency['github_url']
+        repo_url = dependency['source']
         dependency_name = dependency['dependency']
 
         repo_dir = clone_repository(repo_url)
