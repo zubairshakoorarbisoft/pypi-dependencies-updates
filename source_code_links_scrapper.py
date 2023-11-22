@@ -132,7 +132,7 @@ def scrape_links():
         # If file doesn't exist, create a new one and add current date-time in the first row
         with open(dependency_dashboard_csv_path, 'w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file)
-            csv_writer.writerow([datetime.now()])
+            csv_writer.writerow([datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')])
             csv_writer.writerow(['dependency', 'source', 'is_git_supported'])
     latest_dependencies = get_latest_dependencies_list(
         main_dashboard_csv_path,
