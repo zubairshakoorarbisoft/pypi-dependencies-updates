@@ -190,7 +190,6 @@ if __name__ == '__main__':
     source_code_urls = [url for url in source_code_urls if url["is_git_supported"]]
     for dependency in source_code_urls:
         results = {}
-        # repo_url = 'https://github.com/encode/django-rest-framework.git'  # Repository URL
         repo_url = dependency['source']
         dependency_name = dependency['dependency']
 
@@ -268,4 +267,3 @@ if __name__ == '__main__':
         # Save the results to the file using file handling methods
         save_update(results)
 
-        print(results)

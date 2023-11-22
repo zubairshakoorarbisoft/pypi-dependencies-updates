@@ -1,14 +1,65 @@
 import os
+import re
+import shutil
+import certifi
+import pandas as pd
 import requests
 import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
-from update_dependencies_dashboard import (
-    get_latest_dependencies_list,
-    update_datetime_in_csv,
-    get_dependencies_from_dashboard
-)
 
+# Set SSL_CERT_FILE for this script
+os.environ['SSL_CERT_FILE'] = certifi.where()
+
+# GitHub raw URL for the file
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/edx/repo-health-data/master/dashboards/dashboard_main.csv"
+GITHUB_ACCESS_TOKEN = "PLACE YYOUR TOKEN HERE"
+
+
+def get_dependencies_from_dashboard(dependency_dashboard_file_path):
+    dependency_list = []
+
+    with open(dependency_dashboard_file_path, 'r') as file:
+        csv_reader = csv.reader(file)
+        
+        # Skip the timestamp row
+        next(csv_reader, None)
+        
+        # Use the second row as the header
+        header = next(csv_reader, None)
+        
+        for row in csv_reader:
+            # Create a dictionary using the header and row
+            row_dict = dict(zip(header, row))
+            dependency_list.append(row_dict.get('dependency', 'Column not found'))
+
+    return dependency_list
+
+def download_file(url, local_filename, token):
+    headers = {'Authorization': f'token {token}'}
+    try:
+        with requests.get(url, headers=headers, stream=True) as response:
+            response.raise_for_status()
+            with open(local_filename, 'wb') as file:
+                response.raw.decode_content = True
+                shutil.copyfileobj(response.raw, file)
+    except requests.RequestException as e:
+        print(f"Failed to download file from {url}. Exception: {e}")
+
+def get_latest_dependencies_list(csv_path, column_name):
+    download_file(GITHUB_RAW_URL, csv_path, GITHUB_ACCESS_TOKEN)
+    df = pd.read_csv(csv_path)
+
+    # Extract and combine dependency names
+    all_dependencies = set()
+
+    for dependencies_list in df[column_name]:
+        if isinstance(dependencies_list, str):
+            dependencies = eval(dependencies_list)
+            dependency_names = [re.sub(r'\[.*\]', '', dependency.split('==')[0]) for dependency in dependencies]
+            all_dependencies.update(dependency for dependency in dependency_names if dependency != 'django')
+
+    return list(all_dependencies)
 
 def get_substring_before_fifth_slash(url):
     # Split the URL by slashes
@@ -18,7 +69,6 @@ def get_substring_before_fifth_slash(url):
     substring = '/'.join(components[:5])
 
     return substring
-
 
 def filter_urls(urls):
     version_controlling_domains = [
@@ -61,7 +111,6 @@ def is_git_supported(url):
 
     # Check if the domain is in the list of git domains
     return any(git_domain in domain for git_domain in git_domains)
-
 
 def scrape_source_code_url(dependency_name):
     url = f"https://pypi.org/project/{dependency_name}/"
@@ -113,10 +162,19 @@ def scrape_source_code_url(dependency_name):
         print(f"Failed to retrieve the webpage for {url}. Exception: {e}")
         return f"Failed to retrieve the webpage for {url}"
 
+def update_datetime_in_csv(csv_file_path):
+    # Read the existing CSV file into a list of lists
+    with open(csv_file_path, 'r') as file:
+        csv_reader = csv.reader(file)
+        data = list(csv_reader)
 
-def clear_file(file_path):
-    with open(file_path, 'w') as output_file:
-        output_file.truncate(0)
+    # Update the first row with the new datetime
+    data[0][0] = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+
+    # Write the updated data back to the CSV file
+    with open(csv_file_path, 'w', newline='') as file:
+        csv_writer = csv.writer(file)
+        csv_writer.writerows(data)
 
 def scrape_links():
     main_dashboard_csv_path = 'dashboard_main.csv'
