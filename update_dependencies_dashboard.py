@@ -81,7 +81,9 @@ def filter_urls(urls):
         'opendev.org',
         'bitbucket.org',
         'logilab.fr',
-        'heptapod.net'
+        'heptapod.net',
+        'pagure.io',
+        'git.launchpad.net'
     ]
     filtered_urls = []
 
@@ -107,7 +109,11 @@ def is_git_supported(url):
         "gitkraken.com",
         "sourcetreeapp.com",
         "dev.azure.com",
-        "sourceforge.net"
+        "sourceforge.net",
+        "opendev.org",
+        "foss.heptapod.net",
+        "pagure.io",
+        "git.launchpad.net"
     ]
 
     # Extract domain from the URL
@@ -142,7 +148,7 @@ def scrape_source_code_url(dependency_name):
 
         # Step 3: Find up to 10 latest versions from release history
         release_versions = [
-            p.text.split('\n')[0].strip() if '\n' in p.text else p.text.strip() for p in
+            p.text.replace('\n', '').strip() if '\n' in p.text else p.text.strip() for p in
             history_soup.find_all('p', {'class': 'release__version'})
         ][:10]
 
@@ -174,7 +180,7 @@ def update_datetime_in_csv(csv_file_path):
     with open(csv_file_path, 'r') as file:
         csv_reader = csv.reader(file)
         data = list(csv_reader)
-    if len(data) == 2:
+    if len(data) >= 2:
         data[0][0] = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         # Write the updated data back to the CSV file
         with open(csv_file_path, 'w', newline='') as file:

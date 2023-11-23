@@ -65,7 +65,6 @@ def is_git_supported(url):
 
 def scrape_source_code_url(dependency_name):
     url = f"https://pypi.org/project/{dependency_name}/"
-    
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -88,9 +87,9 @@ def scrape_source_code_url(dependency_name):
         
         # Step 3: Find up to 10 latest versions from release history
         release_versions = [
-            p.text.split('\n')[0].strip() if '\n' in p.text else p.text.strip() for p in history_soup.find_all('p', {'class': 'release__version'})
+            p.text.replace('\n', '').strip() if '\n' in p.text else p.text.strip() for p in history_soup.find_all('p', {'class': 'release__version'})
         ][:10]
-        
+
         # Step 4: Iterate through versions to find Project Links
         for version in release_versions:
             url_with_version = f"https://pypi.org/project/{dependency_name}/{version}"
