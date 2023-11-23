@@ -3,7 +3,7 @@ import requests
 import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
-from update_dependencies_dashboard import (
+from update_dependencies_urls import (
     get_latest_dependencies_list,
     update_datetime_in_csv,
     get_dependencies_from_dashboard
@@ -65,6 +65,7 @@ def is_git_supported(url):
 
 def scrape_source_code_url(dependency_name):
     url = f"https://pypi.org/project/{dependency_name}/"
+    
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -120,12 +121,12 @@ def clear_file(file_path):
 def scrape_links():
     main_dashboard_csv_path = 'dashboard_main.csv'
     column_name = 'dependencies.pypi_all.list'
-    dependency_dashboard_csv_path = "dependencies_dashboard.csv"
+    dependency_dashboard_csv_path = "dependencies_urls.csv"
     to_return_links = []
 
     if os.path.exists(dependency_dashboard_csv_path):
         # If file exists, update latest datetime in
-        # dependencies_dashboard.csv file
+        # dependencies_urls.csv file
         update_datetime_in_csv(dependency_dashboard_csv_path)
     else:
         # If file doesn't exist, create a new one and add current date-time in the first row
@@ -151,7 +152,7 @@ def scrape_links():
         }
         # Append data to to_return_links
         to_return_links.append(row_to_append)
-        # Append data to dependencies_dashboard.csv file
+        # Append data to dependencies_urls.csv file
         with open(dependency_dashboard_csv_path, 'a', newline='') as csv_file:
             csv_writer = csv.DictWriter(csv_file, fieldnames=row_to_append.keys())
             csv_writer.writerow(row_to_append)
