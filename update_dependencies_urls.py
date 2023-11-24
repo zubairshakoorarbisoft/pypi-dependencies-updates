@@ -13,7 +13,7 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 
 # GitHub raw URL for the file
 GITHUB_RAW_URL = "https://raw.githubusercontent.com/edx/repo-health-data/master/dashboards/dashboard_main.csv"
-GITHUB_ACCESS_TOKEN = "PLACE YYOUR TOKEN HERE"
+GITHUB_ACCESS_TOKEN = "PLACE YOUR TOKEN HERE"
 
 
 def get_dependencies_from_dashboard(dependency_dashboard_file_path):
@@ -81,7 +81,9 @@ def filter_urls(urls):
         'opendev.org',
         'bitbucket.org',
         'logilab.fr',
-        'heptapod.net'
+        'heptapod.net',
+        'pagure.io',
+        'git.launchpad.net'
     ]
     filtered_urls = []
 
@@ -107,7 +109,11 @@ def is_git_supported(url):
         "gitkraken.com",
         "sourcetreeapp.com",
         "dev.azure.com",
-        "sourceforge.net"
+        "sourceforge.net",
+        "opendev.org",
+        "foss.heptapod.net",
+        "pagure.io",
+        "git.launchpad.net"
     ]
 
     # Extract domain from the URL
@@ -142,7 +148,7 @@ def scrape_source_code_url(dependency_name):
 
         # Step 3: Find up to 10 latest versions from release history
         release_versions = [
-            p.text.split('\n')[0].strip() if '\n' in p.text else p.text.strip() for p in
+            p.text.replace('\n', '').strip() if '\n' in p.text else p.text.strip() for p in
             history_soup.find_all('p', {'class': 'release__version'})
         ][:10]
 
@@ -174,7 +180,7 @@ def update_datetime_in_csv(csv_file_path):
     with open(csv_file_path, 'r') as file:
         csv_reader = csv.reader(file)
         data = list(csv_reader)
-    if len(data) == 2:
+    if len(data) >= 2:
         data[0][0] = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
         # Write the updated data back to the CSV file
         with open(csv_file_path, 'w', newline='') as file:
@@ -191,12 +197,12 @@ def update_datetime_in_csv(csv_file_path):
 def scrape_links():
     main_dashboard_csv_path = 'dashboard_main.csv'
     column_name = 'dependencies.pypi_all.list'
-    dependency_dashboard_csv_path = "dependencies_dashboard.csv"
+    dependency_dashboard_csv_path = "dependencies_urls.csv"
     to_return_links = []
 
     if os.path.exists(dependency_dashboard_csv_path):
         # If file exists, update latest datetime in
-        # dependencies_dashboard.csv file
+        # dependencies_urls.csv file
         update_datetime_in_csv(dependency_dashboard_csv_path)
     else:
         # If file doesn't exist, create a new one and add current date-time in the first row
@@ -222,7 +228,7 @@ def scrape_links():
         }
         # Append data to to_return_links
         to_return_links.append(row_to_append)
-        # Append data to dependencies_dashboard.csv file
+        # Append data to dependencies_urls.csv file
         with open(dependency_dashboard_csv_path, 'a', newline='') as csv_file:
             csv_writer = csv.DictWriter(csv_file, fieldnames=row_to_append.keys())
             csv_writer.writerow(row_to_append)
